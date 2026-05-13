@@ -4,11 +4,11 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubtuntu-latest
+    runs-on: ubuntu-latest
     
     steps:
       - name: checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         
       - name: hello world custom action
         uses: JamesLBrocklehurst/CoderCo-CustomAction@main
